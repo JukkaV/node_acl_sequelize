@@ -1,7 +1,7 @@
 {
   "name": "acl-sequelize",
   "version": "0.3.5",
-  "description": "Node Acl Sequelize Backend",
+  "description": "Node Acl Sequelize Backend with acl2",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yonjah/node_acl_sequelize"
+    "url": "https://github.com/JukkaV/node_acl_sequelize"
   },
   "keywords": [
     "middleware",
@@ -22,11 +22,8 @@
     "postgres",
     "mysql"
   ],
-  "author": "Yoni Jah <yoni.jah@non.co.il>",
+  "author": "JukkaV",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/yonjah/node_acl_sequelize/issues"
-  },
   "devDependencies": {
     "acl2": "2.0.0",
     "chai": "4.3.0",
@@ -38,7 +35,7 @@
     "nyc": "^14.1.1",
     "sequelize": "^5.22.3"
   },
-  "homepage": "https://github.com/yonjah/node_acl_sequelize",
+  "homepage": "https://github.com/JukkaV/node_acl_sequelize",
   "dependencies": {
     "lodash": "^4.17.13"
   },
