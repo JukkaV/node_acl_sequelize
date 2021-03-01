@@ -26,7 +26,7 @@ npm install acl-sequelize
 
 ## Getting Started
 ```javascript
-    Acl       = require('acl');
+    Acl       = require('acl2');
     Sequelize = require('sequelize'),
     AclSeq    = require('acl-sequelize');
     db        = new Sequelize( 'DB', 'USER', 'PASSWORD'),    
